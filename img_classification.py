@@ -62,9 +62,9 @@ print('Test accuracy: ', test_acc)
 
 predictions = model.predict(test_images)
 
-print(predictions[0])
+#print(predictions[0])
 
-print(np.argmax(predictions[0]))
+#print(np.argmax(predictions[0]))
 
 
 def plot_image(i, predictions_array, true_label, img):
